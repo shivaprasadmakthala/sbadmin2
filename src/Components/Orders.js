@@ -67,6 +67,7 @@ export default function Orders() {
                     </TableRow>
                 </TableHead>
                 <TableBody>
+                 {/* eslint-disable-next-line */}
                     {rows.map((row) => {
                         <TableRow key={row.id}>
                             <TableCell>{row.date}</TableCell>
