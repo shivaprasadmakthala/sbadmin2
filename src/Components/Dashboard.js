@@ -160,6 +160,8 @@ function DashboardContent() {
         borderRadius: 2,
     }));
 
+    
+
     const StyledInputBase = styled(InputBase)(({ theme }) => ({
         color: 'inherit',
         '& .MuiInputBase-input': {
